@@ -5,9 +5,9 @@ var reserForm = document.querySelector('.cancle');
 
 
 submit.addEventListener('click', function(){
-  
+  console.log(gender);
 });
 
-reserForm.addEventListener('click', function(){
-  form.reset();
-});
+// reserForm.addEventListener('click', function(){
+//   form.reset();
+// });

@@ -209,15 +209,16 @@ sub { bottom: -.25em; }
 
   input[type='checkbox'] { margin-right: 10px; }
 
-  a {
+  .btn {
     padding: 10px 15px;
+    border: none;
     margin: 0 10px;
     background-color:  #557893;
     color: #fff;
     font-size: 18px;
   }
 
-  a:hover { background-color:  #2a80be; }
+  .btn:hover { background-color:  #2a80be; }
 
 
 /* ==========================================================================

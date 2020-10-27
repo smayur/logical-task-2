@@ -155,3 +155,101 @@ sub { bottom: -.25em; }
   font-style: normal;
   font-weight: bold;
 }
+
+
+/* ==========================================================================
+  common CSS Code starts
+   ========================================================================== */
+
+  body { background-color: #557A95; }
+  li { list-style-type: none; }
+  a { text-decoration: none; }
+  .registration, .data-table { width: 100%; }
+
+/* ==========================================================================
+  common CSS Code ends
+   ========================================================================== */
+
+/* ==========================================================================
+  registration starts
+   ========================================================================== */
+
+  .registration .wrapper {
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form, form ul {
+    width: 59%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form li {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  form li:nth-child(5),
+  form li:last-child { justify-content: center; }
+
+  .title, .label { font-size: 20px; }
+  input { padding: 5px; }
+
+  input[type='radio'],
+  input[type='checkbox'] { transform: scale(1.5); }
+
+  input[type='checkbox'] { margin-right: 10px; }
+
+  a {
+    padding: 10px 15px;
+    margin: 0 10px;
+    background-color:  #557893;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  a:hover { background-color:  #2a80be; }
+
+
+/* ==========================================================================
+  registration ends
+   ========================================================================== */
+
+/* ==========================================================================
+  data-table starts
+   ========================================================================== */
+  .data-table .wrapper {
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .table { border: 1px solid #2a80be; }
+
+  .table ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .headling li {
+    width: calc(17% - 4px);
+    border: 1px solid #2a80be;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+/* ==========================================================================
+  data-table ends
+   ========================================================================== */
